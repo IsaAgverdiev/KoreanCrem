@@ -1,0 +1,134 @@
+.header {
+	&__outer {
+		position: relative;
+		left: 50%;
+		margin-left: -50vw;
+		width: 100vw;
+		background-color: $black;
+		color: $white;
+		font-size: 16px;
+	}
+}
+
+.header-top {
+	max-width: 1280px;
+	margin: 0 auto;
+	min-height: 80px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__menu {
+		display: flex;
+		align-items: center;
+
+		&-item+&-item {
+			margin: 0px 0px 0px 30px;
+		}
+
+		&-item {
+			cursor: pointer;
+		}
+	}
+
+
+	&__icon {
+		display: flex;
+		align-items: center;
+
+		&-item+&-item {
+			margin: 0px 0px 0px 44px;
+		}
+
+		&-item {
+			cursor: pointer;
+			height: 26px;
+		}
+
+		.icon-user {
+			position: relative;
+			width: 39px;
+
+			&::after {
+				content: "";
+				position: absolute;
+				width: 14px;
+				height: 8px;
+				left: 27px;
+				top: 40%;
+				background: url('../../image/icon-user-arrow.svg') no-repeat;
+			}
+		}
+
+		.icon-cart {
+			position: relative;
+			z-index: 1px;
+
+			&::after {
+				content: "2";
+				position: absolute;
+				width: 19px;
+				height: 19px;
+				left: 26px;
+				top: 0px;
+				font-size: 12px;
+			}
+
+			&::before {
+				content: "";
+				position: absolute;
+				width: 19px;
+				height: 19px;
+				background-color: $primary;
+				border-radius: 50%;
+				left: 20px;
+			}
+		}
+	}
+}
+// header-top
+
+.header-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 40px 0px 0px 0px;
+
+	&__logo {
+		&__logo-img {}
+
+	}
+
+	&__nav {
+		&-list {
+			display: flex;
+			justify-content: flex-end;
+			height: 50px;
+			border-bottom: 1px solid $gray-light;
+
+		}
+
+		&-item {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+		}
+
+		&-item+&-item {
+			margin: 0px 0px 0px 44px;
+		}
+
+		&-link {
+			font-size: 16px;
+			font-weight: 500;
+	
+
+			&:hover {
+				color: $primary;
+				// font-weight: 600;
+			}
+		}
+	}
+}
