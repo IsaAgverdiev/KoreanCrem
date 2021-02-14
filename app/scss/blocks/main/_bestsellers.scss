@@ -1,0 +1,27 @@
+.bestsellers {
+
+	&__inenr {
+		position: relative;
+		margin: 130px 0px 0px 0px;
+	}
+
+	&__title {
+		margin: 0px 0px 70px 0px;
+		text-transform: uppercase;
+	}
+
+	&__all-product {
+		position: absolute;
+		top: 50px;
+		right: 0;
+		margin-bottom: 30px;
+		font-size: 20px;
+		font-weight: 600;
+		color: $gray-600;
+		border-bottom: 1px solid $gray-600;
+	}
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+}

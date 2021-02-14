@@ -57,7 +57,7 @@
 				height: 8px;
 				left: 27px;
 				top: 40%;
-				background: url('../../image/icon-user-arrow.svg') no-repeat;
+				background: url('../../image/header/icon-user-arrow.svg') no-repeat;
 			}
 		}
 
@@ -95,17 +95,12 @@
 	justify-content: space-between;
 	margin: 40px 0px 0px 0px;
 
-	&__logo {
-		&__logo-img {}
-
-	}
-
 	&__nav {
 		&-list {
 			display: flex;
 			justify-content: flex-end;
 			height: 50px;
-			border-bottom: 1px solid $gray-light;
+			border-bottom: 1px solid $gray-500;
 
 		}
 
@@ -121,7 +116,7 @@
 		}
 
 		&-link {
-			font-size: 16px;
+			font-size: 18px;
 			font-weight: 500;
 	
 
