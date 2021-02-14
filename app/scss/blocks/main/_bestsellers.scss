@@ -19,6 +19,12 @@
 		font-weight: 600;
 		color: $gray-600;
 		border-bottom: 1px solid $gray-600;
+		transition: .2s;
+		cursor: pointer;
+		&:hover {
+			color: $primary;
+			border-bottom: none;
+		}
 	}
 	&__cards {
 		display: flex;

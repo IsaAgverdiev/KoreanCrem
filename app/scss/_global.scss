@@ -127,11 +127,12 @@ button:focus {
   line-height: 20px;
   background-color: $white;
 
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  &__sale {
+  &__sale,
+  &__new {
     position: absolute;
     left: 25px;
     top: 22px;
@@ -152,10 +153,12 @@ button:focus {
     flex-direction: column;
 
     &__favorites {
+      margin-bottom: 7px;
       :hover {
         fill: $primary;
         cursor: pointer;
       }
+
       &_active path {
         fill: $primary;
       }
@@ -184,22 +187,28 @@ button:focus {
     }
   }
 
-  &__content {
+  &__outer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  &__content {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     max-width: 260px;
     // height: 352px;
-    bottom: 20px;
+    // margin-bottom: 20px;
     // padding-bottom: 20px;
   }
 
   &__title {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 15px;
     color: $black;
     cursor: pointer;
+    margin-bottom: 15px;
   }
 
   &__subtitle {
@@ -210,7 +219,6 @@ button:focus {
   }
 
   &__btn {
-    margin-bottom: auto;
     width: 100%;
     height: 40px;
     font-size: 16px;
@@ -219,9 +227,9 @@ button:focus {
 }
 
 .item-price {
-  margin-bottom: 16px;
   color: $text;
   font-weight: 700;
+  margin-bottom: 16px;
 
   &__current {}
 
