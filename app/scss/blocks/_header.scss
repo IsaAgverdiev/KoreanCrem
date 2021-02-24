@@ -29,6 +29,10 @@
 
 		&-item {
 			cursor: pointer;
+
+			&:hover {
+				color: $primary;
+			}
 		}
 	}
 
@@ -57,7 +61,7 @@
 				height: 8px;
 				left: 27px;
 				top: 40%;
-				background: url('../../image/header/icon-user-arrow.svg') no-repeat;
+				background: url('../../images/header/icon-user-arrow.svg') no-repeat;
 			}
 		}
 

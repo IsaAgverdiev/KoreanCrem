@@ -10,24 +10,9 @@
 		text-transform: uppercase;
 	}
 
-	&__all-product {
-		position: absolute;
-		top: 50px;
-		right: 0;
-		margin-bottom: 30px;
-		font-size: 20px;
-		font-weight: 600;
-		color: $gray-600;
-		border-bottom: 1px solid $gray-600;
-		transition: .2s;
-		cursor: pointer;
-		&:hover {
-			color: $primary;
-			border-bottom: none;
-		}
-	}
 	&__cards {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 }

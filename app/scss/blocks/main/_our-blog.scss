@@ -1,0 +1,164 @@
+.our-blog {
+	&__outer {
+	}
+
+	&__title {
+		margin: 0px 0px 70px 0px;
+	}
+
+	&__items {
+		display: grid;
+		grid-template-columns: (1fr 1fr 1fr);
+		grid-template-rows: (390px 270px);
+		gap: 30px;
+	}
+
+	&__item {
+		border-radius: 10px;
+	}
+}
+
+.item {
+	&__long {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		background-image: url("../images/our-blog/long-bg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	&__long-wrapper {
+		padding: 78px 0px 78px 35px;
+		color: $white;
+	}
+
+	&__long-title {
+		font-size: 38px;
+	}
+
+	&__long-discr {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+		margin: 20px 0px 30px 0px;
+	}
+
+	&__long-btn {
+		background-color: $white;
+		color: $black;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		transition: 0.2s;
+
+		&:hover {
+			background-color: $black;
+			color: $white;
+		}
+		&:active {
+			background-color: lighten($black, 15%);
+		}
+	}
+
+	&__second-left {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		background-color: $gray-800;
+	}
+
+	&__second-left-img-wrapper {
+		position: relative;
+	}
+
+	&__second-left-img {
+		position: absolute;
+		top: -15px;
+		left: 35px;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	&__second-left-body {
+		padding: 45px 45px 0px 350px;
+	}
+
+	&__second-left-title {
+		font-size: 24px;
+		line-height: 29px;
+		color: $text;
+		margin-bottom: 20px;
+	}
+
+	&__second-left-btn {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		transition: 0.2s;
+
+		&:hover {
+			background-color: lighten($primary, 4%);
+			color: $white;
+		}
+		&:active {
+			background-color: darken($primary, 4%);
+		}
+	}
+
+	&__second-rigth {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		background-color: $primary-100;
+		position: relative;
+		cursor: pointer;
+
+		&:hover .right__img-1 {
+			transform: rotate(-10deg);
+		}
+		&:hover .right__img-2 {
+			transform: rotate(-10deg) scale(1.05);
+		}
+		&:hover .right__img-3 {
+			transform: rotate(-10deg);
+		}
+	}
+
+	&__second-right-title {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		text-align: right;
+		color: $text;
+		
+		& img {
+			max-width: 100%;
+		}
+	}
+
+	&__second-rigth-img {
+		transition: 2s;
+	}
+}
+
+.right {
+	&__img-1 {
+		position: absolute;
+		top: 10px;
+		transform: rotate(-18deg);
+		transition: 2s;
+	}
+	
+	&__img-2 {
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		transition: 2s;
+	}
+	
+	&__img-3 {
+		position: absolute;
+		right: 8px;
+		top: 97px;
+		transition: 2s;
+	}
+}

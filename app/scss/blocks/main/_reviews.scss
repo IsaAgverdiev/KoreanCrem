@@ -1,0 +1,136 @@
+.reviews {
+  &__title {
+    margin: 0px 0px 70px 0px;
+  }
+  &__inner {
+    position: relative;
+    margin: 0px 0px 130px 0px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    background-color: $white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding: 25px 20px 30px;
+    max-width: 410px;
+  }
+
+  &__item + &__item {
+    margin-left: 30px;
+  }
+
+  &__item-wrap {
+  }
+
+  &__item-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-info {
+    margin-bottom: 20px;
+  }
+
+  &__item-name {
+    font-weight: 600;
+  }
+
+  &__item-date {
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    color: $gray-600;
+  }
+
+  &__item-rate{
+   
+  }
+
+  &__item-group {
+    position: relative;
+    width: 115px;
+    height: 22px;
+    margin: 0;
+    background: url("../images/rate-off.svg");
+    background-repeat: repeat-x;
+    background-size: 23px auto;
+  }
+
+  &__item-group:focus-within {
+    outline: solid 1px $gray-600;
+    outline-offset: 1px;
+  }
+
+  &__item-star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 22px;
+    appearance: none;
+    background-size: 23px auto;
+    background-repeat: repeat-x;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:checked {
+      background: url("../images/rate-on.svg");
+    }
+    &:hover {
+      background: url("../images/rate-on.svg");
+    }
+    &:hover ~ .reviews__item-star {
+      background: url("../images/rate-off.svg");
+    }
+
+
+    &:nth-child(1) {
+      z-index: 5;
+      width: 23px;
+    }
+
+    &:nth-child(2) {
+      z-index: 4;
+      width: 46px;
+    }
+
+    &:nth-child(3) {
+      z-index: 3;
+      width: 69px;
+    }
+
+    &:nth-child(4) {
+      z-index: 2;
+      width: 92px;
+    }
+
+    &:nth-child(5) {
+      z-index: 1;
+      width: 115px;
+    }
+  }
+
+  &__item-body {
+  }
+
+  &__item-dicr {
+    font-weight: 500;
+  }
+
+  &__item-more {
+    display: block;
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: $primary;
+    margin-top: -10px;
+  }
+}

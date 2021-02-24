@@ -7,9 +7,31 @@
 // Глобальные стили
 @import "colors.scss";
 
+
 // header
 @import "blocks/header";
+// footer
+@import "blocks/footer";
+
+
 // hot-deals
 @import "blocks/main/hot-deals";
 // bestsellers
 @import "blocks/main/bestsellers";
+// income
+@import "blocks/main/income";
+// about
+@import "blocks/main/about";
+// reviews
+@import "blocks/main/reviews";
+// our-blog
+@import "blocks/main/our-blog";
+// viewed
+@import "blocks/main/viewed";
+// instagram
+@import "blocks/main/instagram";
+// subscribe
+@import "blocks/main/subscribe";
+// contacts
+@import "blocks/main/contacts";
+

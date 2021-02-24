@@ -1,0 +1,162 @@
+.footer {
+	&__outer {
+		background-color: $dark-100;
+		color: $white;
+		padding: 50px 0px 0px 25px;
+	}
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 40px;
+	}
+
+	&__header-logo {
+		font-family: "Michroma", sans-serif;
+		font-size: 27px;
+		line-height: 38px;
+	}
+
+	&__body {
+	}
+
+	&__body-items {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__body-inner {
+	}
+
+	&__body-item {
+	}
+
+	&__bottom {
+		margin-top: 50px;
+		padding-bottom: 25px;
+		color: $dark-50;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 17px;
+	}
+
+	&__bottom-items {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	&__bottom-item {
+		&:nth-child(2) {
+			margin-left: -102px;
+		}
+		}
+}
+
+.social {
+	&__links {
+		display: flex;
+	}
+
+	&__link {
+		&:hover path {
+			fill: $primary;
+		}
+		&:active path {
+			fill: $primary-300;
+		}
+	}
+
+	&__link + &__link {
+		margin-left: 18px;
+	}
+}
+
+.fitem {
+	&__title {
+		margin-bottom: 15px;
+	}
+
+	&__list-last {
+		text-align: right;
+	}
+
+	&__string {
+		font-size: 14px;
+		font-weight: 500;
+		cursor: pointer;
+
+		&:hover {
+			color: $primary;
+		}
+	}
+
+	&__string + &__string {
+		margin-top: 10px;
+	}
+
+	&__string-hotline {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 17px;
+		text-transform: uppercase;
+	}
+
+	&__string-tel {
+		display: block;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 29px;
+		margin: 10px 0px 20px 0px;
+	}
+
+	&__string-btn {
+		font-weight: 700;
+		height: 48px;
+		letter-spacing: 1.5%;
+	}
+}
+
+.payment-system {
+	display: flex;
+	align-items: center;
+
+	&__icon {
+		width: 30px;
+		height: 18px;
+	}
+	&__icon + &__icon {
+		margin-left: 13px;
+	}
+}
+.icon {
+	&__mastercard {
+		width: 31px;
+		background-image: url("../images/footer/master-card.svg");
+		background-repeat: no-repeat;
+	}
+
+	&__visa {
+		width: 51px;
+		background-image: url("../images/footer/visa.svg");
+		background-repeat: no-repeat;
+	}
+
+	&__paypal {
+		width: 63px;
+		background-image: url("../images/footer/paypal.svg");
+		background-repeat: no-repeat;
+	}
+
+	&__gpay {
+		width: 45px;
+		background-image: url("../images/footer/googlePay.svg");
+		background-repeat: no-repeat;
+	}
+
+	&__privat-bank {
+		width: 17px;
+		background-image: url("../images/footer/privat-bank.svg");
+		background-repeat: no-repeat;
+	}
+}
