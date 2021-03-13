@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "homepage": "https://isaagverdiev.github.io/KoreanCrem/",
-  "scripts": {},
+  "scripts": {
+    "predeploy": "gulp build",
+    "deploy": "gh-pages -d dist"
+  },
   "author": "Isa Agverdiev",
   "license": "ISC",
   "devDependencies": {
