@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<title>KoreanCrem</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__outer">
+				<div class="header__inner">
+					<div class="header-top">
+						<ul class="header-top__menu">
+							<li class="header-top__menu-item menu-item"><a class="menu-item__link" href="#">Частые вопросы</a></li>
+							<li class="header-top__menu-item menu-item"><a class="menu-item__link" href="#">Доставка и оплата</a></li>
+							<li class="header-top__menu-item menu-item"><a class="menu-item__link" href="#">Сертификаты</a></li>
+							<li class="header-top__menu-item menu-item"><a class="menu-item__link" href="#">Блог</a></li>
+							<li class="header-top__menu-item menu-item"><a class="menu-item__link" href="#">Контакты</a></li>
+						</ul>
+						<!-- /.header-top__menu -->
+						<div class="header-top__icon">
+							<div class="header-top__icon-item icon-search">
+								<svg width="26" height="27" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M17.36 3.47a10.19 10.19 0 00-14.39 0 10.19 10.19 0 000 14.4 10.19 10.19 0 0013 1.15c.09.39.28.77.58 1.07l5.78 5.78a2.15 2.15 0 103.04-3.04l-5.78-5.78c-.3-.3-.68-.5-1.07-.58a10.18 10.18 0 00-1.16-13zm-1.82 12.57A7.6 7.6 0 014.8 5.3a7.6 7.6 0 0110.74 10.74z"
+										fill="#fff" /></svg>
+							</div>
+							<div class="header-top__icon-item icon-user">
+								<svg width="22" height="27" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M10.83 13.02a6.2 6.2 0 004.5-1.83 6.02 6.02 0 001.85-4.43c0-1.72-.62-3.2-1.86-4.43A6.2 6.2 0 0010.83.5c-1.74 0-3.25.62-4.49 1.83a6.02 6.02 0 00-1.86 4.43c0 1.72.63 3.21 1.86 4.43a6.2 6.2 0 004.5 1.83zm11.12 7.47a15.24 15.24 0 00-.63-3.3 8.1 8.1 0 00-.69-1.53 4.62 4.62 0 00-2.53-2.26 5.22 5.22 0 00-1.9-.34c-.27 0-.53.1-1.03.43l-1.08.68a6.2 6.2 0 01-3.1.88 6.19 6.19 0 01-3.1-.88l-1.06-.68c-.5-.32-.76-.43-1.03-.43a5.06 5.06 0 00-3.4 1.26 5.9 5.9 0 00-1.04 1.34 8.4 8.4 0 00-.68 1.54A15.21 15.21 0 000 22.03c0 1.36.44 2.45 1.3 3.26.85.8 1.98 1.21 3.35 1.21h12.7c1.37 0 2.5-.4 3.35-1.2a4.31 4.31 0 001.3-3.27c0-.53-.02-1.04-.05-1.54z"
+										fill="#fff" /></svg>
+							</div>
+							<div class="header-top__icon-item icon-favorites">
+								<svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M23.9374 2.25085C22.5915 0.799395 20.7447 0 18.7369 0C17.2361 0 15.8616 0.471787 14.6516 1.40215C14.041 1.87176 13.4878 2.44631 13 3.11691C12.5124 2.44651 11.959 1.87176 11.3482 1.40215C10.1384 0.471787 8.76393 0 7.26311 0C5.25526 0 3.40829 0.799395 2.06239 2.25085C0.732559 3.68534 0 5.64507 0 7.76929C0 9.95565 0.819443 11.957 2.57874 14.0678C4.15256 15.9559 6.41451 17.8727 9.03391 20.0922C9.92833 20.8501 10.9422 21.7093 11.9949 22.6245C12.273 22.8667 12.6299 23 13 23C13.3699 23 13.727 22.8667 14.0047 22.6249C15.0574 21.7095 16.0719 20.8499 16.9667 20.0916C19.5857 17.8725 21.8476 15.9559 23.4215 14.0676C25.1808 11.957 26 9.95565 26 7.7691C26 5.64507 25.2674 3.68534 23.9374 2.25085Z"
+										fill="white" />
+								</svg>
+
+							</div>
+							<div class="header-top__icon-item icon-comparison">
+								<svg width="33" height="27" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M32.4 11.9l-3.8-7.12h2.76c.49 0 .9-.42.9-.92s-.41-.92-.9-.92H19.65a3.32 3.32 0 00-4.1-2.31 3.33 3.33 0 00-2.26 2.3H1.6c-.49 0-.9.43-.9.93s.41.92.9.92h2.76L.57 11.9c-.36.14-.6.5-.57.9 0 3.3 2.66 6 5.91 6s5.9-2.7 5.9-6c0-.4-.24-.72-.55-.86L7.4 4.75h5.95a3.33 3.33 0 002.27 2.3v13.37a5.2 5.2 0 00-4.23 5.16c0 .5.42.92.9.92h8.5c.49 0 .91-.43.91-.92 0-2.53-1.78-4.7-4.23-5.16V7.1a3.33 3.33 0 002.27-2.3h5.94l-3.91 7.1a.87.87 0 00-.6.9c0 3.3 2.66 6 5.91 6s5.91-2.7 5.91-6c0-.4-.21-.76-.6-.9zm-23.24-.08h-6.5l3.25-6.08 3.25 6.08zm14.72 0l3.25-6.08 3.25 6.08h-6.5z"
+										fill="#fff" /></svg>
+							</div>
+							<div class="header-top__icon-item icon-cart">
+								<svg width="31" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M30.35 9.1h-5.3L19.04.28a.64.64 0 00-.9-.17l-1.06.74c-.3.2-.37.6-.16.9l5.01 7.35H9.08l5.01-7.35c.2-.3.13-.7-.16-.9L12.86.11a.64.64 0 00-.9.17L5.95 9.1H.64c-.35 0-.64.3-.64.65v1.3c0 .36.29.65.65.65h.82L5.4 24.19A2.58 2.58 0 007.87 26h15.26c1.12 0 2.11-.73 2.46-1.81l3.94-12.49h.82c.36 0 .65-.3.65-.65v-1.3a.65.65 0 00-.65-.65z"
+										fill="#fff" /></svg>
+							</div>
+						</div>
+						<!-- /.header-top__icon -->
+					</div>
+					<!-- /.header-top -->
+				</div>
+				<!-- /.header__inner -->
+			</div>
+			<!-- /.header__outer -->
+			<div class="header-bottom">
+				<a class="header-bottom__logo" href="#">
+					<img class="header-bottom__logo-img" src="images/header/logo.png" alt="logo">
+				</a>
+				<nav class="header-bottom__nav">
+					<ul class="header-bottom__nav-list">
+						<li class="header-bottom__nav-item"><a class="header-bottom__nav-link">Лицо</a></li>
+						<li class="header-bottom__nav-item"><a class="header-bottom__nav-link">Тело</a></li>
+						<li class="header-bottom__nav-item"><a class="header-bottom__nav-link">Волосы</a></li>
+						<li class="header-bottom__nav-item"><a class="header-bottom__nav-link">Пробники и миниатюры</a></li>
+						<li class="header-bottom__nav-item"><a class="header-bottom__nav-link">Акции</a></li>
+						<li class="header-bottom__nav-item"><a class="header-bottom__nav-link">Подарочные сертификаты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- /.header-bottom -->
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /.header -->
+
+	<main class="main">
+		<div class="hot-deals">
+			<div class="container">
+				<div class="hot-deals__inner">
+					<div class="hot-deals__primary">
+						<div class="hot-deals__primary-img">
+							<img src="images/hot-deals/hot-deals-primary.jpg" alt="cosmetics">
+						</div>
+						<div class="hot-deals__primary-content">
+							<h2 class="title hot-deals__primary-title">Скидки до 50% на уход для лица от Dr. Jart</h2>
+							<a class="btn-primary hot-deals__primary-btn" href="#">Список товаров</a>
+						</div>
+					</div>
+					<!-- /.hot-deals__primary -->
+					<div class="hot-deals__secondary-inner">
+						<a href="#">
+							<div class="hot-deals__secondary-1">
+								<span class="hot-deals__secondary-discount">– 15%</span>
+								<h3 class="title hot-deals__secondary-1-title">Пилинги по специальной цене</h3>
+							</div>
+						</a>
+						<!-- /.hot-deals__secondary -->
+						<a href="#">
+							<div class="hot-deals__secondary-2">
+								<h3 class="title hot-deals__secondary-2-title">Наборы<br> Innisfree</h3>
+							</div>
+						</a>
+					</div>
+					<!-- /.hot-deals__secondary -->
+				</div>
+				<!-- /.hot-deals__inner -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.hot-deals -->
+		<div class="bestsellers">
+			<div class="container">
+				<div class="bestsellers__inenr">
+					<h1 class="title bestsellers__title">БЕСТСЕЛЛЕРЫ</h1>
+					<a href="#" class="all__stroke bestsellers__all-product">Все бестселлеры</a>
+					<div class="bestsellers__cards">
+						<ul class="product-grid">
+							<li class="product-grid__item">
+								<article class="bestsellers__item product-item">
+									<span class="product-item__sale">-15%</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/bestsellers/bestselersCard-1.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Elizavecca Gold CF Nest White Bomb Eye Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Крем для кожи вокруг глаз с экстрактом ласточкиного гнёзда</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">340 грн</span>
+										<span class="item-price__old">399 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="bestsellers__item product-item">
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/bestsellers/bestselersCard-2.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Mizon Multi Function Formula Snail Repair Eye Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Крем для кожи вокруг глаз с фильтратом улитки</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">678 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="bestsellers__item product-item">
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/bestsellers/bestselersCard-3.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Enough Collagen Moisture Essential Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Увлажняющий крем для лица с коллагеном</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">190 грн</span>
+										<!-- <span class="item-price__old">399 грн</span> -->
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="bestsellers__item product-item">
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/bestsellers/bestselersCard-4.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Elizavecca Hell-Pore Clean Up AHA Fruit Toner</a>
+									</h3>
+									<h4 class="product-item__subtitle">Тонер-пилинг с фруктовыми кислотами</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">365 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+						</ul>
+						<!-- /.product-grid -->
+					</div>
+					<!-- /.bestsellers__carts -->
+				</div>
+				<!-- /.bestsellers__inenr -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.income -->
+		<div class="income">
+			<div class="container">
+				<div class="income__inenr">
+					<h1 class="title income__title">НОВОЕ ПОСТУПЛЕНИЕ</h1>
+					<div class="income__cards grid-container">
+						<ul class="product-grid">
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-1.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Heimish Black Tea Mask Pack</a>
+									</h3>
+									<h4 class="product-item__subtitle">Восстанавливающая маска для лица с чёрным чаем</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">501 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-2.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Heimish Bulgarian Rose Hydrogel Eye Patch</a>
+									</h3>
+									<h4 class="product-item__subtitle">Гидрогелевые патчи для кожи вокруг глаз</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">325 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-3.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Blithe Pressed Serum Gold Apricot</a>
+									</h3>
+									<h4 class="product-item__subtitle">Осветляющая спрессованная сыворотка</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">840 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-4.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Elizavecca Hell-Pore Clean Up AHA Fruit Toner</a>
+									</h3>
+									<h4 class="product-item__subtitle">Тонер-пилинг с фруктовыми кислотами</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">65 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-5.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Purito Centella Green Level Eye Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Подтягивающий крем для век с пептидами и центеллой</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">550 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-6.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">APIEU COCONUT MILK ONE-PACK</a>
+									</h3>
+									<h4 class="product-item__subtitle">Тканевая маска</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">29 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/income/card-7.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Confume</a>
+									</h3>
+									<h4 class="product-item__subtitle">Молочный лосьон для волос</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">107 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="income__item product-item view-all__item">
+									<h2 class="invisible__title">.</h2>
+									<a href="#" class="view-all__img">
+										<div class="view-all__img-scale">
+											<img src="./images/product/income/card-more.png" alt="">
+										</div>
+										<div class="btn-primary view-all__btn">
+											<span>Все новинки</span>
+											<img class="view-all__btn-arrow" src="./images/product/arrow-left.svg" alt="arrow-left">
+										</div>
+									</a>
+								</article>
+							</li>
+						</ul>
+						<!-- /.product-grid -->
+					</div>
+					<!-- /.income__carts -->
+				</div>
+				<!-- /.income__inenr -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.income -->
+		<div class="about">
+			<div class="about__outer">
+				<div class="container">
+					<div class="about__inner">
+						<div class="about__img">
+							<img src="./images/about-block.png" alt="founder">
+							<p class="about__img-discr">Юлия Авраменко — основательница магазина</p>
+						</div>
+						<div class="about__content">
+							<h1 class="title about__content-title">О нас</h1>
+							<div class="about__content-dicr">
+								<p>
+									Мы рады вас приветствовать в нашем интернет-магазине корейской косметики! Наши магазины находятся
+									в Киеве, Харькове и во Львове, а также мы осуществляем доставку товаров по всей Украине. 
+								</p>
+								<p>Мы сотрудничаем спроверенными поставщиками уже много лет, поэтому мы можем вам предоставить низкие
+									цены с гарантией качества. Также у нас имеются все необходимые сертификаты качества, так что вы можете
+									не переживать о подлинности средств.
+								</p>
+								<p>Наш магазин один из самых популярных на рынке, а многие магазины покупают продукцию
+									у нас и перепродают дороже на различных интернет-сервисах.
+								</p>
+							</div>
+							<div class="about__content-stat stat-wrap">
+								<div class="stat-wrap__item">
+									<div class="stat-wrap__item-quantity">5700+</div>
+									<p class="stat-wrap__item-dicr">постоянных клиентов</p>
+								</div>
+								<div class="stat-wrap__item">
+									<div class="stat-wrap__item-quantity">7</div>
+									<p class="stat-wrap__item-dicr">лет на рынке</p>
+								</div>
+								<div class="stat-wrap__item">
+									<div class="stat-wrap__item-quantity">4500+</div>
+									<p class="stat-wrap__item-dicr">продуктов</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.about__inner -->
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.about__inner -->
+		</div>
+		<!-- /.about -->
+		<div class="reviews">
+			<div class="container">
+				<div class="reviews__inner">
+					<h1 class="title reviews__title">ОТЗЫВЫ</h1>
+					<a href="#" class="all__stroke reviews__all-product">Все отзывы</a>
+					<ul class="reviews__items">
+						<li class="reviews__item">
+							<div class="reviews__item-wrap">
+								<div class="reviews__item-header">
+									<div class="reviews__item-info">
+										<span class="reviews__item-name">Любовь</span>
+										<span class="reviews__item-date">01.03.2019</span>
+									</div>
+									<fieldset class="reviews__item-rate">
+										<div class="reviews__item-group">
+											<input type="radio" class="reviews__item-star" name="review-1" value="1" aria-label="Ужасно">
+											<input type="radio" class="reviews__item-star" name="review-1" value="2" aria-label="Сносно">
+											<input type="radio" class="reviews__item-star" name="review-1" value="3" aria-label="Нормально">
+											<input type="radio" class="reviews__item-star" name="review-1" value="4" aria-label="Хорошо">
+											<input type="radio" class="reviews__item-star" name="review-1" value="5" aria-label="Отлично"
+												checked>
+										</div>
+									</fieldset>
+								</div>
+								<div class="reviews__item-body">
+									<p class="reviews__item-dicr">Постоянно здесь заказываю, очень радует что у вас есть скидки
+										на следующие заказы. Высылают всегда все очень быстро, обычно в теч…</p>
+									<a href="#" class="reviews__item-more">Больше</a>
+								</div>
+							</div>
+						</li>
+						<li class="reviews__item">
+							<div class="reviews__item-wrap">
+								<div class="reviews__item-header">
+									<div class="reviews__item-info">
+										<span class="reviews__item-name">Татьяна</span>
+										<span class="reviews__item-date">19.11.2019</span>
+									</div>
+									<fieldset class="reviews__item-rate">
+										<div class="reviews__item-group">
+											<input type="radio" class="reviews__item-star" name="review-2" value="1" aria-label="Ужасно">
+											<input type="radio" class="reviews__item-star" name="review-2" value="2" aria-label="Сносно">
+											<input type="radio" class="reviews__item-star" name="review-2" value="3" aria-label="Нормально">
+											<input type="radio" class="reviews__item-star" name="review-2" value="4" aria-label="Хорошо">
+											<input type="radio" class="reviews__item-star" name="review-2" value="5" aria-label="Отлично"
+												checked>
+										</div>
+									</fieldset>
+								</div>
+								<div class="reviews__item-body">
+									<p class="reviews__item-dicr">Спасибо! Заказываю уже 4 раз, все как всегда на высшем уровне:))</p>
+								</div>
+							</div>
+						</li>
+						<li class="reviews__item">
+							<div class="reviews__item-wrap">
+								<div class="reviews__item-header">
+									<div class="reviews__item-info">
+										<span class="reviews__item-name">Kornelia</span>
+										<span class="reviews__item-date">07.08.2019</span>
+									</div>
+									<fieldset class="reviews__item-rate">
+										<div class="reviews__item-group">
+											<input type="radio" class="reviews__item-star" name="review-3" value="1" aria-label="Ужасно">
+											<input type="radio" class="reviews__item-star" name="review-3" value="2" aria-label="Сносно">
+											<input type="radio" class="reviews__item-star" name="review-3" value="3" aria-label="Нормально">
+											<input type="radio" class="reviews__item-star" name="review-3" value="4" aria-label="Хорошо">
+											<input type="radio" class="reviews__item-star" name="review-3" value="5" aria-label="Отлично"
+												checked>
+										</div>
+									</fieldset>
+								</div>
+								<div class="reviews__item-body">
+									<p class="reviews__item-dicr">Постоянно здесь заказываю, очень радует что у вас есть скидки
+										на следующие заказы. Высылают всегда все очень быстро, обычно в теч…</p>
+									<a href="#" class="reviews__item-more">Больше</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- /.reviews__inner -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.reviews -->
+		<div class="our-blog">
+			<div class="container">
+				<div class="our-blog__outer">
+					<h1 class="title our-blog__title">Наш блог</h1>
+					<div class="our-blog__items">
+						<div class="our-blog__item item__long">
+							<div class="item__long-wrapper">
+								<h2 class="item__long-title">Читай наши статьи<br> чтобы быть в курсе новинок</h2>
+								<p class="item__long-discr">А&nbsp;также узнай все о&nbsp;10-ступенчетой системе<br> ухода и&nbsp;других
+									секретах красоты</p>
+								<button type="button" class="item__long-btn btn-primary">Читать блог</button>
+							</div>
+						</div>
+						<div class="our-blog__item item__second-left">
+							<div class="item__second-left-img-wrapper">
+								<img class="item__second-left-img" src="./images/our-blog/second-left.png" alt="woman">
+							</div>
+							<div class="item__second-left-body">
+								<h2 class="item__second-left-title">
+									Секреты молодости кореянок&nbsp;&mdash;<br> эти 5&nbsp;средств помогут держать<br> кожу в&nbsp;тонусе
+								</h2>
+								<button type="button" class="item__second-left-btn btn-primary">Узнать секреты</button>
+							</div>
+						</div>
+						<div class="our-blog__item item__second-rigth">
+							<h2 class="item__second-right-title">Топ 10&nbsp;средств на&nbsp;все случаи жизни</h2>
+							<img class="item__second-rigth-img right__img-1" src="./images/our-blog/right-1.png" alt="cosmetics">
+							<img class="item__second-rigth-img right__img-2" src="./images/our-blog/right-2.png" alt="cosmetics">
+							<img class="item__second-rigth-img right__img-3" src="./images/our-blog/right-3.png" alt="cosmetics">
+						</div>
+					</div>
+					<!-- /.our-blog__items -->
+				</div>
+				<!-- /.our-blog__outer -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.our-blog -->
+
+		<div class="viewed">
+			<div class="container">
+				<div class="viewed__inenr">
+					<h1 class="title viewed__title">ВЫ ПРОСМАТРИВАЛИ</h1>
+					<div class="viewed__cards">
+						<ul class="product-grid">
+							<li class="product-grid__item">
+								<article class="viewed__item product-item">
+									<span class="product-item__sale">-15%</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/viewed/card-1.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Elizavecca Gold CF Nest White Bomb Eye Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Крем для кожи вокруг глаз с экстрактом ласточкиного гнёзда</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">340 грн</span>
+										<span class="item-price__old">399 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+
+							<li class="product-grid__item">
+								<article class="viewed__item product-item">
+
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/viewed/card-2.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Enough Collagen Moisture Essential Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Увлажняющий крем для лица с коллагеном</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">190 грн</span>
+										<!-- <span class="item-price__old">399 грн</span> -->
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="viewed__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/viewed/card-3.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Mizon Multi Function Formula Snail Repair Eye Cream</a>
+									</h3>
+									<h4 class="product-item__subtitle">Крем для кожи вокруг глаз с фильтратом улитки</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">678 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+							<li class="product-grid__item">
+								<article class="viewed__item product-item">
+									<span class="product-item__new">new</span>
+									<div class="product-item__props item-props">
+										<label class="item-props__favorites">
+											<input type="checkbox" class="item-props__icon item-props__favorites-icon">
+											<svg width="32" height="29" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M29.5 2.8A8.6 8.6 0 0023 0a8 8 0 00-5 1.7C17.2 2.3 16.5 3 16 4c-.6-.9-1.3-1.6-2-2.2A8 8 0 009 0C6.4 0 4.1 1 2.4 2.8A10 10 0 000 9.6c0 2.7 1 5.2 3.2 7.8 2 2.4 4.7 4.7 8 7.5 1 1 2.3 2 3.6 3.1a1.9 1.9 0 002.4 0L21 25c3.2-2.8 6-5.1 8-7.5A12 12 0 0032 9.6c0-2.6-.9-5-2.5-6.8z"
+													fill="#DBDBDB" /></svg>
+										</label>
+										<label class="item-props__comparison">
+											<input type="checkbox" class="item-props__icon item-props__comparison-icon">
+											<svg width="33" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M32.4 11.2l-3.8-6.99h2.76c.49 0 .9-.42.9-.9 0-.5-.41-.91-.9-.91H19.65a3.3 3.3 0 00-6.36 0H1.6c-.49 0-.9.41-.9.9 0 .5.41.91.9.91h2.76l-3.8 7a.87.87 0 00-.57.87c0 3.25 2.66 5.9 5.91 5.9s5.9-2.65 5.9-5.9c0-.39-.24-.7-.55-.84L7.4 4.18h5.95a3.3 3.3 0 002.27 2.27v13.14a5.14 5.14 0 00-4.23 5.07c0 .49.42.91.9.91h8.5c.49 0 .91-.42.91-.9a5.17 5.17 0 00-4.23-5.08V6.5a3.3 3.3 0 002.27-2.28h5.94l-3.91 7a.86.86 0 00-.6.87c0 3.25 2.66 5.9 5.91 5.9S33 15.33 33 12.08a.9.9 0 00-.6-.88zm-23.24-.07h-6.5l3.25-5.97 3.25 5.97zm14.72 0l3.25-5.97 3.25 5.97h-6.5z"
+													fill="#DBDBDB" /></svg>
+										</label>
+									</div>
+									<a class="product-item__img">
+										<img src="images/product/viewed/card-4.png" alt="cosmetics">
+									</a>
+									<h3 class="title product-item__title">
+										<a href="">Blithe Pressed Serum Gold Apricot</a>
+									</h3>
+									<h4 class="product-item__subtitle">Осветляющая спрессованная сыворотка</h4>
+									<div class="product-item__price item-price">
+										<span class="item-price__current">840 грн</span>
+									</div>
+									<button type="button" class="btn-secondary product-item__btn">В корзину</button>
+								</article>
+							</li>
+						</ul>
+						<!-- /.product-grid -->
+					</div>
+					<!-- /.viewed__carts -->
+				</div>
+				<!-- /.viewed__inenr -->
+			</div>
+			<!-- /.container -->
+		</div>
+
+		<div class="instagram">
+			<div class="instagram__outer">
+				<div class="container">
+					<div class="instagram__inner">
+						<div class="instagram__left-content">
+							<h1 class="title instagram__title">
+								<img class="instagram__title-img" src="./images/our-instagram.svg" alt="our-instagram">
+							</h1>
+							<p class="instagram__discr">Подписывайся на наш профиль и каждый день узнавай полезные вещи об уходе
+								за собой
+								с помощью корейской косметики!</p>
+							<div class="instagram__link">
+								<div class="instagram__link-img">
+									<img src="./images/instagram-block/instagram-icon.svg" alt="instagram-icon">
+								</div>
+								<a href="#" class="instagram__link-text">@koreastore</a>
+							</div>
+						</div>
+						<div class="instagram__images-wraper">
+							<div class="instagram__images-item">
+								<img src="./images/instagram-block/item-1.jpg" alt="cosmetics">
+							</div>
+							<div class="instagram__images-item">
+								<img src="./images/instagram-block/item-2.jpg" alt="cosmetics">
+							</div>
+							<div class="instagram__images-item">
+								<img src="./images/instagram-block/item-3.jpg" alt="cream">
+							</div>
+						</div>
+					</div>
+					<!-- /.instagram__inner -->
+				</div>
+				<!-- /.content -->
+			</div>
+			<!-- /.instagram__outer -->
+		</div>
+		<!-- /.instagram -->
+
+		<div class="subscribe">
+			<div class="container">
+				<div class="subscribe__outer">
+					<h1 class="title subscribe__title">Подписывайся на нашу рассылку и получай уведомления о скидках и акциях!
+					</h1>
+					<form action="#" class="subscribe__form">
+						<input class="subscribe__form-input" type="email" placeholder="Эл. почта" aria-label="Электоронная почта">
+						<button class="btn-primary subscribe__form-btn" type="submit">Подписаться</button>
+					</form>
+					<img class="subscribe__img" src="./images/subscribe/womman+branch.png" alt="woman">
+				</div>
+				<!-- /.subscribe__outer -->
+			</div>
+			<!-- /.content -->
+		</div>
+		<!-- /.subsrcibe -->
+
+		<div class="contacts">
+			<div class="contacts__header-inner">
+				<h1 class="title contacts__title">Наши магазины</h1>
+				<div class="contacts__city">
+					<input type="radio" name="city" value="Kiev" class="contacts__city-item" id="city-1" checked>
+					<label class="contacts__city-label temporary" for="city-1">Киев
+					</label>
+					<input type="radio" name="city" value="Kharkov" class="contacts__city-item" id="city-2">
+					<label class="contacts__city-label" for="city-2">Харьков
+					</label>
+					<input type="radio" name="city" value="Lviv" class="contacts__city-item" id="city-3">
+					<label class="contacts__city-label" for="city-3">Львов
+					</label>
+				</div>
+			</div>
+			<!-- /.contacts__header-inner -->
+			<div class="contacts__body">
+				<div class="contacts__body-info info__item">
+					<h2 class="title info__item-title">Будем рады вас видет<br> у нас в магазине!</h2>
+					<div class="info__item-telAll">
+						<a href="tel:+380506755556" class="info__item-tel">+380 50 675 55 56</a>
+						<a href="tel:+380984533837" class="info__item-tel">+380 98 453 38 37</a>
+					</div>
+					<span class="info__item-adress">Ул. Анны Ахматовой 15а (метро Позняки)</span>
+					<a href="mailto:contact@koreacream.com" class="info__item-mail">contact@koreacream.com</a>
+					<span class="info__item-worktime">Каждый день: 9:00–21:00</span>
+				</div>
+			</div>
+			<!-- /.contacts__body -->
+		</div>
+		<!-- /.contacts -->
+	</main>
+	<!-- /.main -->
+
+	<footer class="footer">
+		<div class="footer__outer">
+			<div class="container">
+				<div class="footer__header">
+					<div class="footer__header-logo">
+						<span>KOREA STORE</span>
+					</div>
+					<ul class="footer__header-social social__links">
+						<li class="social__link">
+							<a href="https://www.facebook.com/" class="link__facebook" target="blank">
+								<svg width="13" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12.35 0H9.27c-3.46 0-5.7 2.3-5.7 5.84v2.7H.49a.48.48 0 00-.48.48v3.9c0 .27.22.49.48.49h3.1v9.85c0 .26.22.48.48.48H8.1c.27 0 .49-.22.49-.48V13.4h3.62c.26 0 .48-.22.48-.49v-3.9a.48.48 0 00-.48-.48H8.59V6.25c0-1.1.26-1.65 1.69-1.65h2.07c.27 0 .49-.22.49-.49V.5a.48.48 0 00-.49-.49z"
+										fill="#DBDBDB" /></svg>
+							</a>
+						</li>
+						<li class="social__link">
+							<a href="https://www.instagram.com/" class="link__instagram" target="blank">
+								<svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M18.431 0H7.452a6.488 6.488 0 00-6.48 6.48v10.98a6.488 6.488 0 006.48 6.48h10.98a6.487 6.487 0 006.48-6.48V6.48A6.488 6.488 0 0018.431 0zm-5.49 18.516a6.553 6.553 0 01-6.545-6.546 6.553 6.553 0 016.546-6.546 6.553 6.553 0 016.546 6.546 6.553 6.553 0 01-6.546 6.546zm6.703-11.548a1.936 1.936 0 01-1.934-1.934c0-1.067.867-1.935 1.934-1.935s1.934.868 1.934 1.935a1.936 1.936 0 01-1.934 1.934z"
+										fill="#DBDBDB" />
+									<path
+										d="M12.942 6.827a5.148 5.148 0 00-5.143 5.143 5.148 5.148 0 005.143 5.142 5.148 5.148 0 005.142-5.142 5.148 5.148 0 00-5.142-5.143zm6.702-2.325a.531.531 0 10.002 1.063.531.531 0 00-.002-1.063z"
+										fill="#DBDBDB" /></svg>
+							</a>
+						</li>
+						<li class="social__link">
+							<a href="https://www.whatsapp.com/" class="link__watsapp" target="blank">
+								<svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M.87 11.08c0 3.49 1.74 6.6 4.46 8.63v4.23l4.08-2.24c1.09.3 2.24.47 3.43.47 6.61 0 11.97-4.96 11.97-11.09C24.81 4.96 19.45 0 12.84 0 6.24 0 .87 4.96.87 11.08zm10.71-3.1l3.12 3.25 5.88-3.25-6.55 6.94L11 11.67l-5.95 3.25 6.54-6.94z"
+										fill="#DBDBDB" /></svg>
+							</a>
+						</li>
+						<li class="social__link">
+							<a href="https://www.youtube.com/" class="link__youtube" target="blank">
+								<svg width="36" height="25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M35.27 3.8a4.38 4.38 0 00-3.1-3.06C29.41 0 18.39 0 18.39 0S7.36 0 4.6.71c-1.48.4-2.7 1.6-3.1 3.1-.73 2.7-.73 8.34-.73 8.34s0 5.65.72 8.34a4.38 4.38 0 003.1 3.06c2.8.74 13.79.74 13.79.74s11.02 0 13.78-.71c1.5-.4 2.7-1.57 3.1-3.06.73-2.72.73-8.35.73-8.35s.03-5.65-.73-8.37zm-20.4 13.55V6.95l9.18 5.2-9.17 5.2z"
+										fill="#DBDBDB" /></svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.footer__header -->
+				<div class="footer__body">
+					<div class="footer__body-items">
+						<div class="footer__body-inner">
+							<h3 class="title fitem__title">Компания</h3>
+							<ul class="footer__body-item fitem__list">
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										О нас
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Блог
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Наши магазины
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Популярные вопросы
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Поставщики
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Сертификаты
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__body-inner">
+							<h3 class="title fitem__title">Продукты </h3>
+							<ul class="footer__body-item fitem__list">
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Лицо
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Тело
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Волосы
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Пробники и миниатюры
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Акции
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Подарочные сертификаты
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__body-inner">
+							<h3 class="title fitem__title">Помощь </h3>
+							<ul class="footer__body-item fitem__list">
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Оплата
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Доставка
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Скидки и акции
+									</a>
+								</li>
+								<li class="fitem__string">
+									<a class="fitem__string-link" href="#">
+										Гарантия и возврат
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__body-item fitem__list fitem__list-last">
+							<div class="footer__body-inner">
+								<h3 class="title fitem__title fitem__string-hotline">Горячая линия</h3>
+								<a href="tel:+3806833332322" class="fitem__string-tel">+380 68 3333 23 22</a>
+								<button class="btn-primary fitem__string-btn">Заказать звонок</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.footer__body -->
+				<div class="footer__bottom">
+					<ul class="footer__bottom-items">
+						<li class="footer__bottom-item">Политика конфиденциальности</li>
+						<li class="footer__bottom-item">Договор-оферта</li>
+						<li class="footer__bottom-item payment-system">
+							<div class="payment-system__icon icon__mastercard"></div>
+							<div class="payment-system__icon icon__visa"></div>
+							<div class="payment-system__icon icon__paypal"></div>
+							<div class="payment-system__icon icon__gpay"></div>
+							<div class="payment-system__icon icon__privat-bank"></div>
+						</li>
+						<li class="footer__bottom-item">© Korea store 2020</li>
+					</ul>
+				</div>
+				<!-- /.footer__bottom -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.footer__outer -->
+	</footer>
+	<!-- /.footer -->
+</body>
+
+</html>
