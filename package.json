@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://isaagverdiev.github.io/KoreanCrem/",
   "scripts": {},
   "author": "Isa Agverdiev",
   "license": "ISC",
   "devDependencies": {
     "del": "^6.0.0",
+    "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
